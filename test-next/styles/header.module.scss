@@ -1,0 +1,9 @@
+.header {
+  max-width: auto;
+  padding: 35px;
+  background-color: pink;
+
+  @media (max-width: 767px) {
+    padding: 15px;
+  }
+}

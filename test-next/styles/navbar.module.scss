@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  &__list {
+    display: flex;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    margin-right: 15px;
+
+    @media (max-width: 767px) {
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.active {
+  color: red;
+  margin-right: 10px;
+  @media (max-width: 767px) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
